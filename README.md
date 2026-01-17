@@ -35,4 +35,46 @@ This game was built to fit specific themes provided during the offline round:
 ## 🕹️ Controls
 
 | Key | Action |
-| :
+| :--- | :--- |
+| **W, A, S, D** | Move the Virus |
+| **Left Click** | **Glitch Blade** (Swipe Attack) |
+| **E** | Open **Dark Web Shop** (Buy Upgrades) |
+| **Esc** | Pause Game |
+
+---
+
+## 🛠️ Technical Highlights (Under the Hood)
+
+### ⚡ The "Hit Stop" Mechanic
+To give the melee combat weight without using projectiles, I implemented a **0.1s Screen Freeze** on every kill.
+* *Challenge:* Using `Time.timeScale = 0` caused an infinite loop bug where the un-pause coroutine never fired.
+* *Solution:* Implemented `WaitForSecondsRealtime` to bypass the game loop and ensure the "crunch" feel works perfectly without crashing the logic.
+
+### 📉 System Lag Zones
+A custom area-of-effect system that modifies enemy script variables (`Speed`) in real-time when they enter specific Trigger Colliders tagged `lagzone`.
+
+---
+
+## 📸 Screenshots
+
+| Main Menu | Gameplay | Victory Screen |
+| :---: | :---: | :---: |
+| *(Add Screenshot)* | *(Add Screenshot)* | *(Add Screenshot)* |
+
+---
+
+## 🚀 Installation & How to Play
+1.  Download the latest build from [Itch.io Link Here].
+2.  Unzip the folder.
+3.  Run `TheGlitchGardener.exe`.
+4.  **Warning:** May cause nostalgia for 1995.
+
+---
+
+## 👨‍💻 Credits
+* **Developer:** Studio Raaav (Solo Dev)
+* **Engine:** Unity (2D / URP)
+* **Event:** Brainwave 2.0 Game Jam (Offline Round)
+
+---
+*Made with ❤️ and ☕ by Studio Raaav*
