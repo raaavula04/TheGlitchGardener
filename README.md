@@ -53,18 +53,8 @@ To give the melee combat weight without using projectiles, I implemented a **0.1
 ### 📉 System Lag Zones
 A custom area-of-effect system that modifies enemy script variables (`Speed`) in real-time when they enter specific Trigger Colliders tagged `lagzone`.
 
----
-
-## 📸 Screenshots
-
-| Main Menu | Gameplay | Victory Screen |
-| :---: | :---: | :---: |
-| *(Add Screenshot)* | *(Add Screenshot)* | *(Add Screenshot)* |
-
----
-
 ## 🚀 Installation & How to Play
-1.  Download the latest build from [Itch.io Link Here].
+1.  Download the latest build from https://studioraaav.itch.io/the-glitch-gardener.
 2.  Unzip the folder.
 3.  Run `TheGlitchGardener.exe`.
 4.  **Warning:** May cause nostalgia for 1995.
@@ -77,4 +67,4 @@ A custom area-of-effect system that modifies enemy script variables (`Speed`) in
 * **Event:** Brainwave 2.0 Game Jam (Offline Round)
 
 ---
-*Made with ❤️ and ☕ by Studio Raaav*
+*Made with ❤️ by Studio Raaav*
